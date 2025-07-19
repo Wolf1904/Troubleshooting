@@ -1,5 +1,3 @@
-# 📄 File: enum4linux-smbv1-null-session.md
-
 # 🕵️‍♂️ Enum4linux Enumeration Failure Over SMBv2+
 
 ## 🐛 Problem
