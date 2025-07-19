@@ -1,5 +1,3 @@
-# 📄 File: smbclient-access-denied-fix.md
-
 # 📁 NT_STATUS_ACCESS_DENIED with smbclient
 
 ## 🐛 Problem
