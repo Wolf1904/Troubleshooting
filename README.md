@@ -91,6 +91,6 @@ Want to add your own fixes or enhance existing ones?
 
 ## 📬 Contact
 
-📛 Maintained by: Wolf1904
-💬 Questions or suggestions? Open an issue or PR.
+- 📛 Maintained by: Wolf1904
+- 💬 Questions or suggestions? Open an issue or PR.
 
