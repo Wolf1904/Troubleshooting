@@ -1,5 +1,3 @@
-# 📄 File: apt-dpkg-mariadb-error.md
-
 # 📦 apt install / dpkg broken due to MariaDB
 
 ## 🐛 Problem
