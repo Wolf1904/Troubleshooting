@@ -1,5 +1,3 @@
-# 📄 File: swap-usage-kali-linux.md
-
 # 🧠 Swap Usage and Tuning in Kali Linux
 
 ## 🐛 Problem
