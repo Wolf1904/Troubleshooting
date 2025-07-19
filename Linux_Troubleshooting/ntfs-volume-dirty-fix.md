@@ -49,4 +49,4 @@ Only if you can't access Windows.
 
 Replace sdX with the correct device name.
 
-!! ⚠️ Warning: May lead to further corruption if the file system is actually damaged.
+⚠️ Warning: May lead to further corruption if the file system is actually damaged.
