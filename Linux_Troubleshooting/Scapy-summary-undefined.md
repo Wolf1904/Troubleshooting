@@ -1,5 +1,3 @@
-# 📄 File: scapy-summary-undefined.md
-
 # 🐍 Scapy Error: 'summary' is Not Defined
 
 ## 🐛 Problem
