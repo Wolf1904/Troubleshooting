@@ -9,7 +9,7 @@ Welcome to the **Troubleshooting** repository — a structured collection of rea
 The issues are categorized into two main directories:
 
 ```
-├── Github_Troubleshooting
+├── GitHub_Troubleshooting
 └── Linux_Troubleshooting
 └── Windows_Troubleshooting
 ```
@@ -72,6 +72,7 @@ Each `.md` file follows this structure:
 
 2. Navigate by OS:
 
+- GitHub_Troubleshooting/
 - Linux_Troubleshooting/
 - Windows_Troubleshooting/
 
