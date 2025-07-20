@@ -9,7 +9,8 @@ Welcome to the **Troubleshooting** repository — a structured collection of rea
 The issues are categorized into two main directories:
 
 ```
-├── Linux_Troubleshooting
+├── Github_Troubleshooting
+└── Linux_Troubleshooting
 └── Windows_Troubleshooting
 ```
 
@@ -23,6 +24,15 @@ Each `.md` file follows this structure:
 - **🔍 Cause** – What caused the issue?
 - **🛠️ Solution** – How was it fixed?
 - **📌 Notes** – Optional logs or extra commands
+
+---
+
+## 🐙 GitHub Troubleshooting Topics
+
+| File | Description |
+|------|-------------|
+| [`github-initial-commit.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/GitHub_Troubleshooting/github-initial-commit.md) | Step-by-step guide to perform the first commit and push to a GitHub repo |
+| [`github-authentication-error.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/GitHub_Troubleshooting/github-authentication-error.md) | Fixing authentication failure due to removed password support (use PAT or SSH) |
 
 ---
 
@@ -51,16 +61,6 @@ Each `.md` file follows this structure:
 | [`windows-server-admin-password-reset.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Windows_Troubleshooting/windows-server-admin-password-reset.md) | Resetting Windows Server 2016 admin password via registry |
 
 ---
-
-# 🐙 GitHub Troubleshooting Topics
-
-| File | Description |
-|------|-------------|
-| [`github-initial-commit-push.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/GitHub_Troubleshooting/github-initial-commit-push.md) | Step-by-step guide to perform the first commit and push to a GitHub repo |
-| [`github-authentication-error.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/GitHub_Troubleshooting/github-authentication-error.md) | Fixing authentication failure due to removed password support (use PAT or SSH) |
-
----
-
 
 ## 🚀 How to Use
 
