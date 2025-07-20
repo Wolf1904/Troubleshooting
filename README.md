@@ -30,7 +30,6 @@ Each `.md` file follows this structure:
 
 | File | Description |
 |------|-------------|
-| [`Apt-dpkg-mariadb-error.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Linux_Troubleshooting/Apt-dpkg-mariadb-error.md) | Fixing broken package manager with MariaDB conflicts |
 | [`cron-job-automation.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Linux_Troubleshooting/cron-job-automation.md) | Automating tasks via crontab in Kali |
 | [`disk-space-troubleshooting.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Linux_Troubleshooting/disk-space-troubleshooting.md) | Identifying and freeing up disk usage |
 | [`Enum4linux-smbv1-null-session.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Linux_Troubleshooting/Enum4linux-smbv1-null-session.md) | SMBv1 enumeration with null sessions |
@@ -50,6 +49,15 @@ Each `.md` file follows this structure:
 | [`windows-domain-join-failure.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Windows_Troubleshooting/windows-domain-join-failure.md) | Domain controller unreachable (ERROR_NO_SUCH_DOMAIN) |
 | [`windows-recovery-access.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Windows_Troubleshooting/windows-recovery-access.md) | Entering recovery mode using various methods |
 | [`windows-server-admin-password-reset.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Windows_Troubleshooting/windows-server-admin-password-reset.md) | Resetting Windows Server 2016 admin password via registry |
+
+---
+
+# 🐙 GitHub Troubleshooting Topics
+
+| File | Description |
+|------|-------------|
+| [`github-initial-commit-push.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/GitHub_Troubleshooting/github-initial-commit-push.md) | Step-by-step guide to perform the first commit and push to a GitHub repo |
+| [`github-authentication-error.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/GitHub_Troubleshooting/github-authentication-error.md) | Fixing authentication failure due to removed password support (use PAT or SSH) |
 
 ---
 

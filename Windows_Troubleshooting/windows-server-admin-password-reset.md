@@ -1,75 +1,125 @@
-# Windows Server 2016 Admin Password Reset (Sticky Keys Hack)
+# Windows Admin Password Reset via Sticky Keys Exploit
 
 ## Problem
 
-Administrator password forgotten on a Windows Server 2016 virtual machine. User unable to log in.
+Administrator password was forgotten or lost on a Windows machine (Client or Server). No other accounts available, and the user is locked out.
 
-## Environment
+---
 
-- OS: Windows Server 2016
-- Platform: Virtual Machine (VM)
-- Access: VM console with ability to boot from ISO
+## Affected Systems
+
+- Windows Server (2016 / 2019 / 2022)
+- Windows Client (Windows 10 / Windows 11)
+- Access: Physical or VM console access with ability to boot from ISO
 
 ---
 
 ## Cause
 
-Loss of admin credentials with no secondary account available. No built-in password reset tool on login screen.
+- Administrator password lost or forgotten
+- No secondary login account with administrative privileges
+- No access to password reset disk or recovery tool
 
 ---
 
-## Solution: Sticky Keys Hack (Using Installation ISO)
+## Solution: Sticky Keys Hack (Offline Command Prompt)
 
-### Prerequisites
-
-- Windows Server 2016 ISO attached to the VM
-- Access to VM boot menu or settings
+This method replaces the Sticky Keys binary (`sethc.exe`) with `cmd.exe`, allowing SYSTEM-level access from the login screen.
 
 ---
 
-### Steps
+## Requirements
 
-#### 1. Boot into Windows Setup
+- A bootable **Windows installation ISO** (matching or similar version)
+- Console or BIOS/UEFI access to **boot from ISO**
 
-- Attach the Windows Server 2016 ISO to the VM.
-- Boot from it.
-- On the installation screen, click:
+---
 
-#### 2. Identify Windows Partition
+## Steps
 
-At the prompt `X:\Sources>`, run:
+### 1. Boot into Windows Setup
+
+- Attach the Windows ISO to your machine (VM or physical).
+- Boot from the ISO.
+- On the "Install Windows" screen, press `Shift + F10` to open the command prompt.
+
+---
+
+### 2. Identify Windows System Drive
+
+From the command prompt (`X:\Sources>`), check drives:
 
 ```cmd
 dir C:\
 dir D:\
 dir E:\
 ```
+- Identify the drive letter of your Windows system drive (usually `C:`).
 
-#### 3. Replace Sticky Keys with cmd.exe
+Look for the drive containing the Windows\System32 directory.
+
+Let’s assume it's C:\ for the steps below.
+
+### 3. Backup & Replace Sticky Keys with cmd.exe
 
 ```cmd
-move D:\Windows\System32\sethc.exe D:\
-copy D:\Windows\System32\cmd.exe D:\Windows\System32\sethc.exe
+move C:\Windows\System32\sethc.exe C:\
+copy C:\Windows\System32\cmd.exe C:\Windows\System32\sethc.exe
 ```
 
-#### 4. Reboot the VM
-Remove the ISO and boot normally to the Windows login screen.
+This replaces the Sticky Keys handler with a command prompt.
 
-#### 5. Trigger Sticky Keys and Reset Password
+### 4. Reboot the System
+
+Exit setup and reboot the system normally.
+
+Remove the ISO (if on VM or physical media).
+
+### 5. Launch SYSTEM Command Prompt
 
 At the login screen, press the Shift key 5 times.
 
-A command prompt opens as SYSTEM. Then run:
+A command prompt opens running as SYSTEM. Now reset the admin password:
+
 ```cmd
 net user Administrator NewPassword123
 ```
 
-Replace NewPassword123 with your desired password.
+Replace NewPassword123 with your new desired password.
 
-#### 6. (Optional) Restore Original Sticky Keys File
-
-After login, open a new command prompt as Administrator and run:
+You can also list users first:
 
 ```cmd
-copy D:\sethc.exe D:\Windows\System32\sethc.exe
+net user
 ```
+
+Then:
+
+```cmd
+net user <username> <new_password>
+```
+
+### 6. (Optional but Recommended) Restore Original Sticky Keys
+
+After successfully logging in, open a command prompt as Administrator and run:
+
+```cmd
+copy C:\sethc.exe C:\Windows\System32\sethc.exe
+```
+
+This restores the original Sticky Keys binary for accessibility purposes.
+
+### Warnings
+
+- This method works only if BitLocker is not enabled.
+- May be flagged as unauthorized access in enterprise environments.
+- Use this responsibly on systems you own or are authorized to work on.
+
+### Notes
+
+This trick works on:
+    - Physical machines (using bootable USB/DVD)
+    - Virtual machines (with ISO attached)
+    - Windows Server & Client editions without Secure Boot + BitLocker
+
+For systems with Secure Boot or BitLocker, alternate recovery methods (like AD password reset, recovery key, or booting into safe mode with known credentials) are required.
