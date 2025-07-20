@@ -1,21 +1,21 @@
-# 📦 apt install / dpkg broken due to MariaDB
+# apt install / dpkg broken due to MariaDB
 
-## 🐛 Problem
+## Problem
 Running `apt install -f` or `apt --fix-broken install` failed due to MariaDB-related errors.
 
-### 💬 Observed:
+### Observed:
 - Errors such as:
   ```
   update-alternatives: error: alternative path /etc/mysql/mariadb.cnf doesn't exist
   ```
 - Package mariadb-common or mariadb-server left unconfigured
 
-## 🔍 Root Cause
+## Root Cause
 MariaDB installation is broken or partially configured, causing dpkg to fail during alternative management. Files may be missing from /etc/mysql due to interruption.
 
-## 🛠️ Fix Steps
+## Fix Steps
 
-### ✅ Steps Performed:
+### Steps Performed:
 1. Reconfigured dpkg manually:
    ```bash
    sudo dpkg --configure -a

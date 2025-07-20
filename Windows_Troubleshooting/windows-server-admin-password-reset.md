@@ -1,10 +1,10 @@
-# 🔐 Windows Server 2016 Admin Password Reset (Sticky Keys Hack)
+# Windows Server 2016 Admin Password Reset (Sticky Keys Hack)
 
-## 🐛 Problem
+## Problem
 
 Administrator password forgotten on a Windows Server 2016 virtual machine. User unable to log in.
 
-## 🧭 Environment
+## Environment
 
 - OS: Windows Server 2016
 - Platform: Virtual Machine (VM)
@@ -12,22 +12,22 @@ Administrator password forgotten on a Windows Server 2016 virtual machine. User 
 
 ---
 
-## 📌 Cause
+## Cause
 
 Loss of admin credentials with no secondary account available. No built-in password reset tool on login screen.
 
 ---
 
-## 🛠️ Solution: Sticky Keys Hack (Using Installation ISO)
+## Solution: Sticky Keys Hack (Using Installation ISO)
 
-### 🧰 Prerequisites
+### Prerequisites
 
 - Windows Server 2016 ISO attached to the VM
 - Access to VM boot menu or settings
 
 ---
 
-### 🔧 Steps
+### Steps
 
 #### 1. Boot into Windows Setup
 

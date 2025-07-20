@@ -1,19 +1,19 @@
-# 🕵️‍♂️ Enum4linux Enumeration Failure Over SMBv2+
+# Enum4linux Enumeration Failure Over SMBv2+
 
-## 🐛 Problem
+## Problem
 Enum4linux fails to retrieve information from a target system.
 
-### 💬 Observed:
+### Observed:
 - Firewall is off
 - Target accessible via ping or nmap
 - Enum4linux returns little or no useful data
 
-## 🔍 Root Cause
+## Root Cause
 Enum4linux relies on SMBv1 and often null sessions. If SMBv2 or higher is enforced or null sessions are disabled, enum4linux is ineffective.
 
-## 🛠️ Fix Steps
+## Fix Steps
 
-### ✅ Steps Performed:
+### Steps Performed:
 1. Scanned for supported SMB versions:
    ```bash
    nmap --script smb-protocols -p445 <target_ip>

@@ -1,10 +1,10 @@
-# 🧰 Accessing Windows Recovery Environment (WinRE)
+# Accessing Windows Recovery Environment (WinRE)
 
 This guide covers how to access the **Windows Recovery Environment (WinRE)** under different scenarios like boot failure, black screen, and forgotten password.
 
 ---
 
-## 🚀 Normal Method (If System Boots)
+## Normal Method (If System Boots)
 
 1. Click **Start** → **Power**
 2. Hold **Shift** and click **Restart**
@@ -12,7 +12,7 @@ This guide covers how to access the **Windows Recovery Environment (WinRE)** und
 
 ---
 
-## 🔁 Method 1: Force Recovery on Boot Failure
+## Method 1: Force Recovery on Boot Failure
 
 > Use this if Windows won't start or you're stuck on a boot screen.
 
@@ -23,7 +23,7 @@ This guide covers how to access the **Windows Recovery Environment (WinRE)** und
 
 ---
 
-## ⚫ Method 2: Black Screen After Boot
+## Method 2: Black Screen After Boot
 
 > Screen is black but the system powers on.
 
@@ -41,7 +41,7 @@ This guide covers how to access the **Windows Recovery Environment (WinRE)** und
 
 ---
 
-## 🔒 Method 3: Forgot Windows Password
+## Method 3: Forgot Windows Password
 
 > Works only for **local accounts**, not Microsoft cloud accounts.
 

@@ -1,29 +1,29 @@
-# 🧩 Linux Disk Space Draining — General Troubleshooting Guide
+# Linux Disk Space Draining — General Troubleshooting Guide
 
-## 🐛 Problem
+## Problem
 System storage is draining rapidly or unexpectedly full.
 
-### 💬 Observed:
+### Observed:
 - System slowdowns
 - Errors like “No space left on device”
 - Unexpectedly high disk usage in certain directories
 
 ---
 
-## 🔎 Step-by-Step Diagnosis
+## Step-by-Step Diagnosis
 
-### 1️⃣ Check overall disk usage
+### 1. Check overall disk usage
 ```bash
 df -h
 ```
 
-### 2️⃣ Identify which top-level directory is taking space
+### 2. Identify which top-level directory is taking space
 
 ```bash
 sudo du -h --max-depth=1 / | sort -hr | head -n 10
 ```
 
-### 3️⃣ Dig deeper into the heaviest directory
+### 3. Dig deeper into the heaviest directory
 
 Example for /var:
 
@@ -82,7 +82,7 @@ sudo apt autoremove
 
 ---
 
-#### 🧰 Tools for Space Management
+#### Tools for Space Management
 
 - GUI Tool:
 ```bash
@@ -95,11 +95,11 @@ baobab  # GNOME Disk Usage Analyzer
 sudo ncdu /
 ```
 
-🔍 Use ncdu to explore and delete large files interactively.
+Use ncdu to explore and delete large files interactively.
 
 ---
 
-### ✅ Prevention Tips:
+### Prevention Tips:
 
   - Regularly run: sudo du -sh /*
   - Set log rotation policies in /etc/logrotate.conf

@@ -1,13 +1,13 @@
-# 🧩 NTFS Volume Fails to Mount on Linux (Dirty Bit Set)
+# NTFS Volume Fails to Mount on Linux (Dirty Bit Set)
 
-## 🐛 Problem:
+## Problem:
 
 The NTFS volume on `/dev/sdX` fails to mount on a Linux system. Mounting attempts lead to errors such as:
 
 
 ---
 
-## 🧠 Cause:
+## Cause:
 
 This happens when the NTFS partition was not cleanly unmounted from a Windows system. This sets the "dirty bit", which Linux NTFS drivers detect and **refuse to mount** to avoid corruption.
 
@@ -21,9 +21,9 @@ The volume is effectively "locked" by Windows and marked as needing a filesystem
 
 ---
 
-## 🛠️ Solution:
+## Solution:
 
-### ✅ **Preferred (Safe) Method – Clean via Windows**
+### **Preferred (Safe) Method – Clean via Windows**
 
 1. **Connect the drive to a Windows machine.**
 2. Open **Command Prompt** as Administrator:
@@ -33,7 +33,7 @@ The volume is effectively "locked" by Windows and marked as needing a filesystem
    ```cmd
    chkdsk E: /f
 
-### ⚠️ **Alternate (Risky) Method – Force Mount in Linux**
+### **Alternate (Risky) Method – Force Mount in Linux**
 
 Only if you can't access Windows.
 
@@ -49,4 +49,4 @@ Only if you can't access Windows.
 
 Replace sdX with the correct device name.
 
-⚠️ Warning: May lead to further corruption if the file system is actually damaged.
+Warning: May lead to further corruption if the file system is actually damaged.

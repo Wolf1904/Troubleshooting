@@ -1,19 +1,19 @@
-# 🧠 Swap Usage and Tuning in Kali Linux
+# Swap Usage and Tuning in Kali Linux
 
-## 🐛 Problem
+## Problem
 System performance degraded or out-of-memory errors observed when running multiple tools or browsers.
 
-### 💬 Observed:
+### Observed:
 - System becomes unresponsive under memory pressure
 - Applications crash with no clear logs
 - Swap usage appears 0 or very high in `free -h`
 
-## 🔍 Root Cause
+## Root Cause
 Kali Linux uses swap when RAM is exhausted. High swap usage indicates memory pressure; no swap means the system may crash when RAM is full. Default swappiness may not suit VM workloads.
 
-## 🛠️ Swap Management and Fix Steps
+## Swap Management and Fix Steps
 
-### ✅ Steps Performed:
+### Steps Performed:
 1. Checked memory and swap usage:
    ```bash
    free -h

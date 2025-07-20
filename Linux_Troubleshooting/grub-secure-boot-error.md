@@ -1,16 +1,16 @@
-# 🧩 GRUB Bootloader Boot Error After Battery Disconnection
+# GRUB Bootloader Boot Error After Battery Disconnection
 
-## 🐛 Problem
+## Problem
 After disconnecting the laptop battery, the system failed to boot into Linux. Instead, it showed a GRUB bootloader error or failed to detect the OS.
 
-### ❗ Error Seen:
+### Error Seen:
 - System boots to a blank screen or BIOS repeatedly
 - GRUB not loading properly after BIOS reset
 
-## 🔍 Root Cause
+## Root Cause
 BIOS was reset to default settings after the battery was disconnected. This re-enabled **Secure Boot**, which blocked the Linux GRUB bootloader from executing.
 
-## 🛠️ Solution: Disable Secure Boot in BIOS
+## Solution: Disable Secure Boot in BIOS
 
 1. **Power off** the system completely.
 2. **Enter BIOS/UEFI settings** by pressing `F2`, `F10`, `DEL`, or `ESC` during boot (depends on manufacturer).
@@ -19,13 +19,13 @@ BIOS was reset to default settings after the battery was disconnected. This re-e
 5. Save changes and **exit BIOS**.
 6. System should now boot properly into GRUB and then into your Linux OS.
 
-## ✅ Outcome
+## Outcome
 Disabling Secure Boot allowed GRUB to execute successfully, restoring normal boot behavior.
 
-## 🔗 Notes
+## Notes
 - Secure Boot often prevents unsigned bootloaders (like some Linux installs) from loading.
 - Always check boot settings (UEFI vs Legacy, boot order, etc.) after BIOS reset.
 
-## 📌 Tags
+## Tags
 `GRUB`, `Secure Boot`, `BIOS Reset`, `Linux Bootloader`, `Troubleshooting`, `UEFI`
 

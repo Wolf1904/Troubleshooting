@@ -1,12 +1,12 @@
-# ⏰ Automating Tasks with `cron` and `crontab`
+# Automating Tasks with `cron` and `crontab`
 
-## 📘 What is `cron`?
+## What is `cron`?
 
 **`cron`** is a time-based job scheduler in Unix-like operating systems. It allows users to run scripts, commands, or programs automatically at scheduled times or intervals — without any user interaction.
 
 The name comes from the Greek word **“chronos”**, meaning **time**.
 
-## 🧰 What is `crontab`?
+## What is `crontab`?
 
 `crontab` (cron table) is a configuration file where users define their scheduled tasks (known as **cron jobs**). Each user (including root) can have their own crontab.
 
@@ -18,7 +18,7 @@ crontab -e
 
 ---
 
-## 🧠 Crontab Syntax
+## Crontab Syntax
 Each line in a crontab file follows this pattern:
 
 ```
@@ -33,7 +33,7 @@ Each line in a crontab file follows this pattern:
 
 ---
 
-## 🔐 Permissions Note
+## Permissions Note
 
 If your cron job includes sudo commands, you’ll either need:
 
@@ -45,7 +45,7 @@ Example for passwordless sudo for specific commands (use sudo visudo):
 
 ---
 
-## 🔐 Permissions Note
+## Permissions Note
 If your cron job includes sudo commands, you’ll either need:
 
 A passwordless sudo configuration in /etc/sudoers, or
@@ -60,7 +60,7 @@ your-username ALL=NOPASSWD: /bin/service command
 
 ---
 
-## 🐞 Debugging Tips
+## Debugging Tips
 Use full paths in commands (e.g., /usr/bin/python3)
 
 Redirect output to logs to help with debugging:
@@ -81,7 +81,7 @@ journalctl | grep cron             # systemd-based
 
 ---
 
-## ✅ Useful Commands
+## Useful Commands
 
 ```bash
 crontab -e        # Edit your user’s crontab
@@ -92,7 +92,7 @@ sudo crontab -e   # Edit root's crontab
 
 ---
 
-## 📎 References
+## References
 
 - crontab.guru – helpful crontab schedule generator
 - man 5 crontab – full crontab syntax in the terminal

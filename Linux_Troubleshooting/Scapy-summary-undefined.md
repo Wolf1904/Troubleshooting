@@ -1,19 +1,19 @@
-# 🐍 Scapy Error: 'summary' is Not Defined
+# Scapy Error: 'summary' is Not Defined
 
-## 🐛 Problem
+## Problem
 Calling summary() directly in Scapy throws an error.
 
-### 💬 Observed:
+### Observed:
 ```python
 NameError: name 'summary' is not defined
 ```
 
-## 🔍 Root Cause
+## Root Cause
 The function summary() must be called on a packet object or packet list. Scapy does not expose summary as a global function.
 
-## 🛠️ Fix Steps
+## Fix Steps
 
-### ✅ Correct Usage Example:
+### Correct Usage Example:
 ```python
 from scapy.all import sniff
 
@@ -23,7 +23,7 @@ a.summary()
 
 - Ensure you're using the method on the sniffed packet list or individual packet.
 
-### ❌ Incorrect:
+### Incorrect:
 ```python
 summary()
 ```

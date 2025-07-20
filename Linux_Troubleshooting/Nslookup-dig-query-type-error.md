@@ -1,9 +1,9 @@
-# 🌐 nslookup Query Type Error: "unknown query type: all"
+# nslookup Query Type Error: "unknown query type: all"
 
-## 🐛 Problem
+## Problem
 Using `nslookup` with `set type=all` leads to an error.
 
-### 💬 Observed:
+### Observed:
 - Command:
   ```
   nslookup
@@ -11,12 +11,12 @@ Using `nslookup` with `set type=all` leads to an error.
   unknown query type: all
   ```
 
-## 🔍 Root Cause
+## Root Cause
 nslookup does not support the `type=all` directive. It only accepts specific query types (e.g., A, MX, NS). The behavior is inconsistent compared to dig.
 
-## 🛠️ Fix Steps
+## Fix Steps
 
-### ✅ Recommended Alternatives:
+### Recommended Alternatives:
 
 1. Use supported types in nslookup:
    ```
