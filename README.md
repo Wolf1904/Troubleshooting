@@ -10,7 +10,7 @@ The issues are categorized into two main directories:
 
 ```
 ├── GitHub_Troubleshooting
-└── Linux_Troubleshooting
+├── Linux_Troubleshooting
 └── Windows_Troubleshooting
 ```
 
