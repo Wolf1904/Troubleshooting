@@ -2,6 +2,7 @@
 
 Welcome to the **Troubleshooting** repository — a structured collection of real-world system issues, their root causes, and practical solutions. This project serves as a personal knowledge base and a reference for IT professionals, system admins, CTF players, and developers dealing with Linux and Windows environments.
 
+> ⚠ **Disclaimer**: This information is intended for educational and recovery purposes only. Do not use on systems without proper authorization.
 ---
 
 ## Repository Structure
