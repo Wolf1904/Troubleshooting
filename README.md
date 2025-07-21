@@ -72,9 +72,9 @@ Each `.md` file follows this structure:
 
 2. Navigate by OS:
 
-- GitHub_Troubleshooting/
-- Linux_Troubleshooting/
-- Windows_Troubleshooting/
+   - GitHub_Troubleshooting/
+   - Linux_Troubleshooting/
+   - Windows_Troubleshooting/
 
 3. Open the relevant file and follow the documented fix.
 
