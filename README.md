@@ -1,3 +1,7 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Made with ChatGPT](https://img.shields.io/badge/Made%20with-ChatGPT-10a37f?style=flat-square&logo=openai&logoColor=white)](https://openai.com/chatgpt)
+
+
 # Troubleshooting Knowledge Base
 
 Welcome to the **Troubleshooting** repository — a structured collection of real-world system issues, their root causes, and practical solutions. This project serves as a personal knowledge base and a reference for IT professionals, system admins, CTF players, and developers dealing with Linux and Windows environments.
