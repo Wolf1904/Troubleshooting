@@ -40,7 +40,7 @@ Each `.md` file follows this structure:
 
 | File | Description |
 |------|-------------|
-| [`cron-job-automation.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Linux_Troubleshooting/cron-job-automation.md) | Automating tasks via crontab in Kali |
+| [`cron-job-automation.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Linux_Troubleshooting/cron-job-automation.md) | Automating tasks via crontab in Linux |
 | [`disk-space-troubleshooting.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Linux_Troubleshooting/disk-space-troubleshooting.md) | Identifying and freeing up disk usage |
 | [`Enum4linux-smbv1-null-session.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Linux_Troubleshooting/Enum4linux-smbv1-null-session.md) | SMBv1 enumeration with null sessions |
 | [`grub-secure-boot-error.md`](https://github.com/Wolf1904/Troubleshooting/blob/master/Linux_Troubleshooting/grub-secure-boot-error.md) | GRUB boot failure due to Secure Boot |
