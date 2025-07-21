@@ -28,3 +28,9 @@ Enum4linux relies on SMBv1 and often null sessions. If SMBv2 or higher is enforc
      smbclient -L //<target_ip> -N
      ```
    - Otherwise, used valid credentials for enumeration
+
+---
+
+## Tags  
+
+`SMB` `Enum4linux` `PenetrationTesting` `SMBv2` `Enumeration` `NullSession` `Recon` `CTF`

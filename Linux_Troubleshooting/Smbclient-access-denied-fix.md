@@ -4,7 +4,7 @@
 Accessing a Samba share using smbclient fails with an NT_STATUS_ACCESS_DENIED error when uploading or retrieving files.
 
 ### Observed:
-- Command used: `smbclient //192.168.1.11/Users -U username`
+- Command used: `smbclient //192.168.x.x/ShareName -U username`
 - Uploading a file (e.g., `put badfile.txt`) fails with:
   ```
   NT_STATUS_ACCESS_DENIED opening remote file
@@ -38,3 +38,8 @@ Insufficient permissions for the user account on the Samba server or share misco
    sudo systemctl restart smbd
    ```
 
+---
+
+## Tags  
+
+`SMB` `Samba` `smbclient` `Permissions` `NT_STATUS_ACCESS_DENIED` `LinuxNetworking` `FileSharing` `smb.conf`

@@ -37,3 +37,9 @@ Kali Linux uses swap when RAM is exhausted. High swap usage indicates memory pre
    sudo swapon /swapfile
    echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
    ```
+
+---
+
+## Tags  
+
+`Linux` `KaliLinux` `Swap` `MemoryManagement` `PerformanceTuning` `Sysctl` `VMOptimization` `OutOfMemory`

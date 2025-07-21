@@ -1,10 +1,10 @@
-# 🛠️ Troubleshooting Knowledge Base
+# Troubleshooting Knowledge Base
 
 Welcome to the **Troubleshooting** repository — a structured collection of real-world system issues, their root causes, and practical solutions. This project serves as a personal knowledge base and a reference for IT professionals, system admins, CTF players, and developers dealing with Linux and Windows environments.
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 The issues are categorized into two main directories:
 
@@ -16,18 +16,18 @@ The issues are categorized into two main directories:
 
 ---
 
-## 🧩 File Format
+## File Format
 
 Each `.md` file follows this structure:
 
-- **🐛 Problem** – What issue was encountered?
-- **🔍 Cause** – What caused the issue?
-- **🛠️ Solution** – How was it fixed?
-- **📌 Notes** – Optional logs or extra commands
+- **Problem** – What issue was encountered?
+- **Cause** – What caused the issue?
+- **Solution** – How was it fixed?
+- **Notes** – Optional logs or extra commands
 
 ---
 
-## 🐙 GitHub Troubleshooting Topics
+## GitHub Troubleshooting Topics
 
 | File | Description |
 |------|-------------|
@@ -36,7 +36,7 @@ Each `.md` file follows this structure:
 
 ---
 
-## 🐧 Linux Troubleshooting Topics
+## Linux Troubleshooting Topics
 
 | File | Description |
 |------|-------------|
@@ -52,7 +52,7 @@ Each `.md` file follows this structure:
 
 ---
 
-## 🪟 Windows Troubleshooting Topics
+## Windows Troubleshooting Topics
 
 | File | Description |
 |------|-------------|
@@ -62,7 +62,7 @@ Each `.md` file follows this structure:
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1. **Clone the repo:**
    ```bash
@@ -80,7 +80,7 @@ Each `.md` file follows this structure:
 
 ---
 
-## 💡 Why This Repo?
+## Why This Repo?
 
 Maintaining this repository helps:
 - Avoid repetitive Googling
@@ -90,7 +90,7 @@ Maintaining this repository helps:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Want to add your own fixes or enhance existing ones?
 - Fork the repo
@@ -99,8 +99,8 @@ Want to add your own fixes or enhance existing ones?
 
 ---
 
-## 📬 Contact
+## Contact
 
-- 📛 Maintained by: Wolf1904
-- 💬 Questions or suggestions? Open an issue or PR.
+- Maintained by: Wolf1904
+- Questions or suggestions? Open an issue or PR.
 

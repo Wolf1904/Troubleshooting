@@ -85,5 +85,10 @@ git push origin master
 ## Recommendation
 
 - For simple setups: Use HTTPS with a PAT
-
 - For long-term use or automation: Use SSH authentication
+
+---
+
+## Tags
+
+`Git` `GitHub` `Authentication` `HTTPS` `SSH` `PAT` `DevOps` `TokenBasedAuth` `GitError`

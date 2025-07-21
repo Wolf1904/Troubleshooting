@@ -27,3 +27,9 @@ a.summary()
 ```python
 summary()
 ```
+
+---
+
+## Tags  
+
+`Scapy` `Python` `PacketAnalysis` `summary()` `NameError` `Networking` `Scripting` `BugFix`

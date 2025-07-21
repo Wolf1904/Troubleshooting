@@ -78,3 +78,9 @@ git push -u origin main
 The flag -u sets upstream tracking so you can later just use git push or git pull
 
 Ensure the GitHub repo is created before pushing, and it's empty (no README if you're pushing an existing local repo)
+
+---
+
+## Tags  
+
+`Git` `GitHub` `InitialCommit` `RemoteSetup` `GitPush` `DevOps` `VersionControl` `SSH` `HTTPS`

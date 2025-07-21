@@ -58,3 +58,9 @@ This guide covers how to access the **Windows Recovery Environment (WinRE)** und
 move C:\Windows\System32\utilman.exe C:\
 copy C:\Windows\System32\cmd.exe C:\Windows\System32\utilman.exe
 ```
+
+---
+
+## Tags  
+
+`Windows` `WinRE` `Recovery` `BootIssues` `PasswordReset` `StartupRepair` `SafeMode` `BlackScreen` `Troubleshooting`

@@ -96,3 +96,9 @@ sudo crontab -e   # Edit root's crontab
 
 - crontab.guru – helpful crontab schedule generator
 - man 5 crontab – full crontab syntax in the terminal
+
+---
+
+## Tags  
+
+`Linux` `Cron` `Crontab` `Automation` `TaskScheduler` `DevOps` `SystemAdministration` `Scripting`

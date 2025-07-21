@@ -27,5 +27,6 @@ Disabling Secure Boot allowed GRUB to execute successfully, restoring normal boo
 - Always check boot settings (UEFI vs Legacy, boot order, etc.) after BIOS reset.
 
 ## Tags
+
 `GRUB`, `Secure Boot`, `BIOS Reset`, `Linux Bootloader`, `Troubleshooting`, `UEFI`
 

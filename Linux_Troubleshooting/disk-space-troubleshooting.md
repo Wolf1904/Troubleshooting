@@ -105,3 +105,9 @@ Use ncdu to explore and delete large files interactively.
   - Set log rotation policies in /etc/logrotate.conf
   - Use LVM or partitions wisely for separation
   - Monitor disk with cron + alerts
+
+---
+
+## Tags  
+
+`Linux` `DiskUsage` `Storage` `Troubleshooting` `SystemMonitoring` `LogManagement` `Cleanup` `Performance`

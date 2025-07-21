@@ -36,3 +36,9 @@ nslookup does not support the `type=all` directive. It only accepts specific que
    dig example.com A
    dig example.com MX
    ```
+
+---
+
+## Tags  
+
+`nslookup` `DNS` `QueryType` `Troubleshooting` `Networking` `dig` `LinuxCommands`

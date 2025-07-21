@@ -26,7 +26,7 @@ Switch both VMs to a **NAT Network**, **Host-Only**, or **Internal Network** mod
 - Go to `File > Preferences > Network > NAT Networks`
 - Create a new NAT Network and assign it to both VMs under their **Network Settings**.
 
-### Step 2: Set Static IPs
+### Step 2: Set Static IPs - Example
 Configure static IPs on both machines within the same subnet:
 - **DC IP:** `10.0.2.10`
 - **Client IP:** `10.0.2.20`
@@ -77,3 +77,8 @@ Once connectivity and DNS resolution are working:
 netdom join %computername% /domain:yourdomain.local /userd:Administrator /passwordd:*
 ```
 
+---
+
+## Tags  
+
+`Windows` `ActiveDirectory` `DomainJoin` `DNS` `Networking` `WindowsServer2016` `Virtualization` `Firewall` `Netlogon`

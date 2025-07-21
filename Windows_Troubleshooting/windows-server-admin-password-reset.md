@@ -123,3 +123,9 @@ This trick works on:
     - Windows Server & Client editions without Secure Boot + BitLocker
 
 For systems with Secure Boot or BitLocker, alternate recovery methods (like AD password reset, recovery key, or booting into safe mode with known credentials) are required.
+
+---
+
+## Tags  
+
+`Windows` `PasswordReset` `StickyKeysExploit` `OfflineAccess` `WindowsServer` `Windows10` `Windows11` `SysAdmin` `Recovery`
