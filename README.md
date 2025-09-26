@@ -1,5 +1,4 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Made with ChatGPT](https://img.shields.io/badge/Made%20with-ChatGPT-10a37f?style=flat-square&logo=openai&logoColor=white)](https://openai.com/chatgpt)
 
 
 # Troubleshooting Knowledge Base
@@ -108,10 +107,3 @@ Want to add your own fixes or enhance existing ones?
 
 - Maintained by: Wolf1904
 - Questions or suggestions? Open an issue or PR.
-
----
-
-## 🤖 AI Assistance
-
-Some content in this repository was created or refined with the assistance of [ChatGPT](https://openai.com/chatgpt) to ensure clarity, consistency, and technical accuracy.
-
